@@ -5,3 +5,7 @@
 *.a
 *.so
 __pycache__
+.vscode/*
+.vscode/
+node_modules/
+build/

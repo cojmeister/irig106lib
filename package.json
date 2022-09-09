@@ -1,0 +1,35 @@
+{
+  "name": "irig106libnodejs",
+  "version": "1.0.0",
+  "description": "A nodeJS wrap of the C irig106lib; this only wrap the functions I need (i.e. 1553) but further work can be made.",
+  "main": "module.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "clean": "node-gyp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cojmeister/irig106lib.git"
+  },
+  "keywords": [
+    "wrap",
+    "nodejs",
+    "1553",
+    "irig106",
+    "typescript"
+  ],
+  "author": "LC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cojmeister/irig106lib/issues"
+  },
+  "homepage": "https://github.com/cojmeister/irig106lib#readme",
+  "devDependencies": {
+    "node-gyp": "^9.1.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
+}
